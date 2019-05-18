@@ -8,16 +8,15 @@ public abstract class User {
     private String username;
     private String hashPassword;
     private UserDetails userDetails;
-    private String token;
 
-    private List<Case> cases;
+    private List<Integer> casesIds;
 
     public User(int id, String username, String hashPassword, UserDetails userDetails) {
         this.id = id;
         this.username = username;
         this.hashPassword = hashPassword;
         this.userDetails = userDetails;
-        this.cases = new ArrayList<>();
+        this.casesIds = new ArrayList<>();
     }
 
     public abstract UserTypeEnum getType();
@@ -42,15 +41,11 @@ public abstract class User {
         return userDetails;
     }
 
-    public void setToken(String token) {
-        this.token = token;
+    void addCaseId(int caseId) {
+        casesIds.add(caseId);
     }
 
-    void addCase(Case c) {
-        cases.add(c);
-    }
-
-    public List<Case> getAssignedCases() {
-        return cases;
+    public List<Integer> getAssignedCasesIds() {
+        return casesIds;
     }
 }

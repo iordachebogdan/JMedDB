@@ -1,11 +1,11 @@
 package model;
 
 public class Patient extends User {
-    private Medic personalMedic;
+    private Integer personalMedicId;
 
     public Patient(int id, String username, String hashPassword, UserDetails userDetails) {
         super(id, username, hashPassword, userDetails);
-        this.personalMedic = null;
+        this.personalMedicId = null;
     }
 
     @Override
@@ -13,11 +13,11 @@ public class Patient extends User {
         return UserTypeEnum.PATIENT;
     }
 
-    public Medic getPersonalMedic() {
-        return personalMedic;
+    public int getPersonalMedicId() {
+        return personalMedicId;
     }
 
-    public void setPersonalMedic(Medic personalMedic) {
-        this.personalMedic = personalMedic;
+    public void setPersonalMedicId(int personalMedicId) {
+        this.personalMedicId = personalMedicId;
     }
 }

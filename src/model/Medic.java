@@ -5,12 +5,12 @@ import java.util.List;
 
 public class Medic extends User {
     private List<Specialization> specializations;
-    private List<Patient> patients;
+    private List<Integer> patientsIds;
 
     public Medic(int id, String username, String hashPassword, UserDetails userDetails) {
         super(id, username, hashPassword, userDetails);
         this.specializations = new ArrayList<>();
-        this.patients = new ArrayList<>();
+        this.patientsIds = new ArrayList<>();
     }
 
     public void addSpecialization(Specialization s) {
@@ -21,16 +21,16 @@ public class Medic extends User {
         return specializations;
     }
 
-    public void addPatient(Patient p) {
-        patients.add(p);
+    public void addPatientId(int patientId) {
+        patientsIds.add(patientId);
     }
 
-    public List<Patient> getPatients() {
-        return patients;
+    public List<Integer> getPatientsIds() {
+        return patientsIds;
     }
 
-    public void removePatient(Patient p) {
-        patients.remove(p);
+    public void removePatientId(int patientId) {
+        patientsIds.remove(patientId);
     }
 
     @Override

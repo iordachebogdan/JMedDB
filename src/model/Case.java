@@ -5,9 +5,9 @@ import java.util.List;
 
 public class Case {
     private int id;
-    private Patient patient;
-    private Medic ownerMedic;
-    private List<Medic> otherMedics;
+    private int patientId;
+    private int ownerMedicId;
+    private List<Integer> otherMedicsIds;
 
     private SymptomList symptomList;
     private Prescription prescription;
@@ -16,17 +16,14 @@ public class Case {
 
     public Case(int id, Patient patient) {
         this.id = id;
-        this.patient = patient;
-        this.ownerMedic = patient.getPersonalMedic();
-        this.otherMedics = new ArrayList<>();
+        this.patientId = patient.getId();
+        this.ownerMedicId = patient.getPersonalMedicId();
+        this.otherMedicsIds = new ArrayList<>();
 
         this.symptomList = new SymptomList();
         this.prescription = new Prescription();
 
         this.completed = false;
-
-        this.patient.addCase(this);
-        this.ownerMedic.addCase(this);
     }
 
     public SymptomList getSymptomList() {
@@ -37,21 +34,20 @@ public class Case {
         return prescription;
     }
 
-    public Medic getOwnerMedic() {
-        return ownerMedic;
+    public int getOwnerMedicId() {
+        return ownerMedicId;
     }
 
-    public List<Medic> getOtherMedics() {
-        return otherMedics;
+    public List<Integer> getOtherMedicsIds() {
+        return otherMedicsIds;
     }
 
-    public void addMedic(Medic m) {
-        otherMedics.add(m);
-        m.addCase(this);
+    public void addMedic(int medicId) {
+        otherMedicsIds.add(medicId);
     }
 
-    public Patient getPatient() {
-        return patient;
+    public int getPatientId() {
+        return patientId;
     }
 
     public boolean isCompleted() {
