@@ -13,7 +13,7 @@ public class Patient extends User {
         return UserTypeEnum.PATIENT;
     }
 
-    public int getPersonalMedicId() {
+    public Integer getPersonalMedicId() {
         return personalMedicId;
     }
 

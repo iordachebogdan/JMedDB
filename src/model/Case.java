@@ -14,10 +14,10 @@ public class Case {
 
     private boolean completed;
 
-    public Case(int id, Patient patient) {
+    public Case(int id, int patientId, int ownerMedicId) {
         this.id = id;
-        this.patientId = patient.getId();
-        this.ownerMedicId = patient.getPersonalMedicId();
+        this.patientId = patientId;
+        this.ownerMedicId = ownerMedicId;
         this.otherMedicsIds = new ArrayList<>();
 
         this.symptomList = new SymptomList();

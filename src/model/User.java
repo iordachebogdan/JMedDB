@@ -25,6 +25,10 @@ public abstract class User {
         return id;
     }
 
+    public void setId(int id) {
+        this.id = id;
+    }
+
     public String getUsername() {
         return username;
     }
@@ -41,7 +45,7 @@ public abstract class User {
         return userDetails;
     }
 
-    void addCaseId(int caseId) {
+    public void addCaseId(int caseId) {
         casesIds.add(caseId);
     }
 
