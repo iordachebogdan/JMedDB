@@ -2,8 +2,15 @@
   <library name="java">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/libs/mysql-connector-java-8.0.16.jar!/" />
+      <root url="file://$PROJECT_DIR$/libs/commons-csv-1.6" />
     </CLASSES>
-    <JAVADOC />
-    <SOURCES />
+    <JAVADOC>
+      <root url="file://$PROJECT_DIR$/libs/commons-csv-1.6/apidocs" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/libs/commons-csv-1.6" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/libs/commons-csv-1.6" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/libs/commons-csv-1.6" recursive="false" type="SOURCES" />
   </library>
 </component>
