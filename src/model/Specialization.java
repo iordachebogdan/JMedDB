@@ -17,4 +17,9 @@ public class Specialization {
             return false;
         return name.equals( ((Specialization)obj).name );
     }
+
+    @Override
+    public String toString() {
+        return name;
+    }
 }

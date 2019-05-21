@@ -75,8 +75,10 @@ public class AuthenticationController {
             throw e;
         }
         String token = authenticationService.authenticateUser(user, password);
-        if (token == null)
+        if (token == null) {
             loggingService.log(entry, username, LoggingService.Status.UNAUTHORIZED);
+            throw new IllegalArgumentException("Invalid password");
+        }
         else
             loggingService.log(entry, username, LoggingService.Status.OK);
         return token;

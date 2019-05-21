@@ -1,3 +1,881 @@
 timestamp,operation,controller,details,username,status
 Mon May 20 03:36:25 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,patient3,OK
 Mon May 20 03:36:25 EEST 2019,READ,controller.PatientController,Patient reads his data,patient3,OK
+Mon May 20 20:33:26 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,medic1,OK
+Mon May 20 20:33:31 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,medic1,UNAUTHORIZED
+Mon May 20 20:33:39 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,medic1,OK
+Mon May 20 20:34:00 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,,UNAUTHORIZED
+Mon May 20 20:34:19 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,medd,UNAUTHORIZED
+Mon May 20 20:34:26 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,patient3,OK
+Mon May 20 20:41:05 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,,UNAUTHORIZED
+Mon May 20 21:59:29 EEST 2019,CREATE,controller.AuthenticationController,User tries to register username=patient1,,BAD_REQUEST
+Mon May 20 21:59:39 EEST 2019,CREATE,controller.AuthenticationController,User tries to register username=bogdan,bogdan,OK
+Mon May 20 21:59:45 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,bogdan,OK
+Mon May 20 22:03:11 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,bogdan,OK
+Mon May 20 22:03:56 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,bogdan,UNAUTHORIZED
+Mon May 20 22:04:03 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,bogdan,OK
+Mon May 20 22:04:28 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,bogdan,OK
+Mon May 20 22:04:48 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,bogdan,OK
+Mon May 20 22:05:15 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,bogdan,OK
+Mon May 20 22:24:14 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,bogdan,OK
+Mon May 20 22:30:58 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,bogdan,OK
+Mon May 20 22:31:36 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,bogdan,OK
+Mon May 20 22:35:27 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,bogdan,OK
+Mon May 20 22:37:44 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,bogdan,OK
+Mon May 20 22:40:57 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,bogdan,OK
+Mon May 20 22:42:08 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,bogdan,OK
+Mon May 20 22:42:53 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,bogdan,OK
+Mon May 20 22:43:26 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,bogdan,OK
+Mon May 20 23:02:45 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,bogdan,OK
+Mon May 20 23:03:23 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,bogdan,OK
+Mon May 20 23:03:23 EEST 2019,READ,controller.PatientController,Patient reads his data,bogdan,OK
+Mon May 20 23:03:23 EEST 2019,READ,controller.MedicController,User reads medic with id=0,,NOT_FOUND
+Mon May 20 23:04:17 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,bogdan,OK
+Mon May 20 23:04:34 EEST 2019,READ,controller.PatientController,Patient reads his data,bogdan,OK
+Mon May 20 23:05:34 EEST 2019,READ,controller.MedicController,User reads medic with id=0,,NOT_FOUND
+Mon May 20 23:06:01 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,bogdan,OK
+Mon May 20 23:06:01 EEST 2019,READ,controller.PatientController,Patient reads his data,bogdan,OK
+Mon May 20 23:06:17 EEST 2019,READ,controller.MedicController,User reads medic with id=0,,NOT_FOUND
+Mon May 20 23:07:14 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,bogdan,OK
+Mon May 20 23:07:14 EEST 2019,READ,controller.PatientController,Patient reads his data,bogdan,OK
+Mon May 20 23:08:19 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,bogdan,OK
+Mon May 20 23:08:19 EEST 2019,READ,controller.PatientController,Patient reads his data,bogdan,OK
+Mon May 20 23:09:44 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,bogdan,OK
+Mon May 20 23:09:44 EEST 2019,READ,controller.PatientController,Patient reads his data,bogdan,OK
+Mon May 20 23:10:14 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,bogdan,OK
+Mon May 20 23:10:14 EEST 2019,READ,controller.PatientController,Patient reads his data,bogdan,OK
+Mon May 20 23:18:43 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,bogdan,OK
+Mon May 20 23:18:44 EEST 2019,READ,controller.PatientController,Patient reads his data,bogdan,OK
+Mon May 20 23:19:17 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,bogdan,OK
+Mon May 20 23:19:17 EEST 2019,READ,controller.PatientController,Patient reads his data,bogdan,OK
+Mon May 20 23:21:17 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,bogdan,OK
+Mon May 20 23:21:17 EEST 2019,READ,controller.PatientController,Patient reads his data,bogdan,OK
+Mon May 20 23:32:08 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,bogdan,OK
+Mon May 20 23:32:08 EEST 2019,READ,controller.PatientController,Patient reads his data,bogdan,OK
+Mon May 20 23:32:56 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,bogdan,OK
+Mon May 20 23:32:57 EEST 2019,READ,controller.PatientController,Patient reads his data,bogdan,OK
+Mon May 20 23:33:30 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,bogdan,OK
+Mon May 20 23:33:30 EEST 2019,READ,controller.PatientController,Patient reads his data,bogdan,OK
+Mon May 20 23:33:54 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,bogdan,OK
+Mon May 20 23:33:55 EEST 2019,READ,controller.PatientController,Patient reads his data,bogdan,OK
+Mon May 20 23:34:14 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,bogdan,OK
+Mon May 20 23:34:14 EEST 2019,READ,controller.PatientController,Patient reads his data,bogdan,OK
+Mon May 20 23:42:20 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,bogdan,OK
+Mon May 20 23:42:20 EEST 2019,READ,controller.PatientController,Patient reads his data,bogdan,OK
+Mon May 20 23:42:51 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,bogdan,OK
+Mon May 20 23:42:51 EEST 2019,READ,controller.PatientController,Patient reads his data,bogdan,OK
+Mon May 20 23:42:51 EEST 2019,READ,controller.MedicController,User reads all medics,,OK
+Mon May 20 23:43:30 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,bogdan,OK
+Mon May 20 23:43:31 EEST 2019,READ,controller.PatientController,Patient reads his data,bogdan,OK
+Mon May 20 23:43:31 EEST 2019,READ,controller.MedicController,User reads all medics,,OK
+Mon May 20 23:44:06 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,bogdan,OK
+Mon May 20 23:44:06 EEST 2019,READ,controller.PatientController,Patient reads his data,bogdan,OK
+Mon May 20 23:44:28 EEST 2019,READ,controller.MedicController,User reads all medics,,OK
+Mon May 20 23:47:10 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,bogdan,OK
+Mon May 20 23:47:10 EEST 2019,READ,controller.PatientController,Patient reads his data,bogdan,OK
+Mon May 20 23:47:10 EEST 2019,READ,controller.MedicController,User reads all medics,,OK
+Mon May 20 23:48:17 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,bogdan,OK
+Mon May 20 23:48:17 EEST 2019,READ,controller.PatientController,Patient reads his data,bogdan,OK
+Mon May 20 23:48:17 EEST 2019,READ,controller.MedicController,User reads all medics,,OK
+Mon May 20 23:51:04 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,bogdan,OK
+Mon May 20 23:51:04 EEST 2019,READ,controller.PatientController,Patient reads his data,bogdan,OK
+Mon May 20 23:51:04 EEST 2019,READ,controller.MedicController,User reads all medics,,OK
+Mon May 20 23:51:49 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,bogdan,OK
+Mon May 20 23:51:49 EEST 2019,READ,controller.PatientController,Patient reads his data,bogdan,OK
+Mon May 20 23:51:56 EEST 2019,READ,controller.MedicController,User reads all medics,,OK
+Mon May 20 23:56:11 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,bogdan,OK
+Mon May 20 23:56:11 EEST 2019,READ,controller.PatientController,Patient reads his data,bogdan,OK
+Mon May 20 23:56:11 EEST 2019,READ,controller.MedicController,User reads all medics,,OK
+Mon May 20 23:56:14 EEST 2019,READ,controller.MedicController,User reads all medics,,OK
+Mon May 20 23:56:18 EEST 2019,READ,controller.MedicController,User reads all medics with specialization=neuro,,OK
+Mon May 20 23:56:23 EEST 2019,READ,controller.MedicController,User reads all medics with specialization=cardio,,OK
+Mon May 20 23:56:28 EEST 2019,READ,controller.MedicController,User reads all medics,,OK
+Tue May 21 00:00:33 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,bogdan,OK
+Tue May 21 00:00:33 EEST 2019,READ,controller.PatientController,Patient reads his data,bogdan,OK
+Tue May 21 00:00:33 EEST 2019,READ,controller.MedicController,User reads all medics,,OK
+Tue May 21 00:08:05 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,bogdan,OK
+Tue May 21 00:08:05 EEST 2019,READ,controller.PatientController,Patient reads his data,bogdan,OK
+Tue May 21 00:08:05 EEST 2019,READ,controller.MedicController,User reads all medics,,OK
+Tue May 21 00:08:38 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,bogdan,OK
+Tue May 21 00:08:38 EEST 2019,READ,controller.PatientController,Patient reads his data,bogdan,OK
+Tue May 21 00:08:39 EEST 2019,READ,controller.MedicController,User reads all medics,,OK
+Tue May 21 00:09:12 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,bogdan,OK
+Tue May 21 00:09:12 EEST 2019,READ,controller.PatientController,Patient reads his data,bogdan,OK
+Tue May 21 00:09:12 EEST 2019,READ,controller.MedicController,User reads all medics,,OK
+Tue May 21 00:10:42 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,bogdan,OK
+Tue May 21 00:10:42 EEST 2019,READ,controller.PatientController,Patient reads his data,bogdan,OK
+Tue May 21 00:10:42 EEST 2019,READ,controller.MedicController,User reads all medics,,OK
+Tue May 21 00:10:45 EEST 2019,UPDATE,controller.PatientController,Patient sends request to medic with id=1,bogdan,OK
+Tue May 21 00:10:48 EEST 2019,UPDATE,controller.PatientController,Patient sends request to medic with id=3,bogdan,OK
+Tue May 21 00:11:06 EEST 2019,UPDATE,controller.PatientController,Patient sends request to medic with id=1,bogdan,OK
+Tue May 21 00:11:46 EEST 2019,READ,controller.MedicController,User reads all medics with specialization=neuro,,OK
+Tue May 21 00:11:52 EEST 2019,UPDATE,controller.PatientController,Patient sends request to medic with id=3,bogdan,OK
+Tue May 21 00:27:25 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,patient1,OK
+Tue May 21 00:27:25 EEST 2019,READ,controller.PatientController,Patient reads his data,patient1,OK
+Tue May 21 00:27:25 EEST 2019,READ,controller.MedicController,User reads all medics,,OK
+Tue May 21 00:27:25 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 00:28:29 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,patient,UNAUTHORIZED
+Tue May 21 00:28:32 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,patient1,OK
+Tue May 21 00:28:32 EEST 2019,READ,controller.PatientController,Patient reads his data,patient1,OK
+Tue May 21 00:28:32 EEST 2019,READ,controller.MedicController,User reads all medics,,OK
+Tue May 21 00:28:32 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 00:29:32 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,patient1,OK
+Tue May 21 00:29:33 EEST 2019,READ,controller.PatientController,Patient reads his data,patient1,OK
+Tue May 21 00:29:33 EEST 2019,READ,controller.MedicController,User reads all medics,,OK
+Tue May 21 00:29:33 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 00:30:04 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,patient1,OK
+Tue May 21 00:30:04 EEST 2019,READ,controller.PatientController,Patient reads his data,patient1,OK
+Tue May 21 00:30:04 EEST 2019,READ,controller.PatientController,Patient reads his data,patient1,OK
+Tue May 21 00:30:04 EEST 2019,READ,controller.MedicController,User reads all medics,,OK
+Tue May 21 00:30:04 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 00:31:25 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,patient1,OK
+Tue May 21 00:31:25 EEST 2019,READ,controller.PatientController,Patient reads his data,patient1,OK
+Tue May 21 00:31:25 EEST 2019,READ,controller.PatientController,Patient reads his data,patient1,OK
+Tue May 21 00:31:25 EEST 2019,READ,controller.MedicController,User reads all medics,,OK
+Tue May 21 00:31:25 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 00:31:25 EEST 2019,READ,controller.CaseController,Read case with id=1,patient1,OK
+Tue May 21 00:36:00 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,patient1,OK
+Tue May 21 00:36:00 EEST 2019,READ,controller.PatientController,Patient reads his data,patient1,OK
+Tue May 21 00:36:00 EEST 2019,READ,controller.PatientController,Patient reads his data,patient1,OK
+Tue May 21 00:36:00 EEST 2019,READ,controller.MedicController,User reads all medics,,OK
+Tue May 21 00:36:00 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 00:36:00 EEST 2019,READ,controller.CaseController,Read case with id=1,patient1,OK
+Tue May 21 00:36:27 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,patient1,OK
+Tue May 21 00:36:27 EEST 2019,READ,controller.PatientController,Patient reads his data,patient1,OK
+Tue May 21 00:36:27 EEST 2019,READ,controller.PatientController,Patient reads his data,patient1,OK
+Tue May 21 00:36:27 EEST 2019,READ,controller.MedicController,User reads all medics,,OK
+Tue May 21 00:36:28 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 00:36:28 EEST 2019,READ,controller.CaseController,Read case with id=1,patient1,OK
+Tue May 21 00:40:11 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,patient1,OK
+Tue May 21 00:40:11 EEST 2019,READ,controller.PatientController,Patient reads his data,patient1,OK
+Tue May 21 00:40:11 EEST 2019,READ,controller.PatientController,Patient reads his data,patient1,OK
+Tue May 21 00:40:11 EEST 2019,READ,controller.MedicController,User reads all medics,,OK
+Tue May 21 00:40:11 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 00:40:11 EEST 2019,READ,controller.CaseController,Read case with id=1,patient1,OK
+Tue May 21 00:40:19 EEST 2019,CREATE,controller.CaseController,Patient creates case,patient1,OK
+Tue May 21 00:40:54 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,patient3,OK
+Tue May 21 00:40:54 EEST 2019,READ,controller.PatientController,Patient reads his data,patient3,OK
+Tue May 21 00:40:54 EEST 2019,READ,controller.PatientController,Patient reads his data,patient3,OK
+Tue May 21 00:40:54 EEST 2019,READ,controller.MedicController,User reads all medics,,OK
+Tue May 21 00:40:54 EEST 2019,READ,controller.MedicController,User reads medic with id=3,,OK
+Tue May 21 00:40:54 EEST 2019,READ,controller.CaseController,Read case with id=3,patient3,OK
+Tue May 21 00:44:10 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,medic1,OK
+Tue May 21 00:44:10 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 00:58:33 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,medic1,OK
+Tue May 21 00:58:33 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 00:59:14 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,medic1,OK
+Tue May 21 00:59:14 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 00:59:43 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,medic1,OK
+Tue May 21 00:59:43 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 01:02:46 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,medic1,OK
+Tue May 21 01:02:46 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 01:06:55 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,medic1,OK
+Tue May 21 01:06:55 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 01:10:03 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,medic1,UNAUTHORIZED
+Tue May 21 01:10:07 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,medic1,OK
+Tue May 21 01:10:07 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 01:10:07 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 01:10:14 EEST 2019,UPDATE,controller.MedicController,Medic adds specialization myspec1,medic1,OK
+Tue May 21 01:10:31 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,medic1,OK
+Tue May 21 01:10:31 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 01:10:31 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 01:12:08 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,bogdan,OK
+Tue May 21 01:12:08 EEST 2019,READ,controller.PatientController,Patient reads his data,bogdan,OK
+Tue May 21 01:12:08 EEST 2019,READ,controller.PatientController,Patient reads his data,bogdan,OK
+Tue May 21 01:12:08 EEST 2019,READ,controller.MedicController,User reads all medics,,OK
+Tue May 21 01:12:20 EEST 2019,UPDATE,controller.PatientController,Patient sends request to medic with id=1,bogdan,OK
+Tue May 21 01:12:29 EEST 2019,READ,controller.MedicController,User reads all medics with specialization=cardio,,OK
+Tue May 21 01:12:34 EEST 2019,READ,controller.MedicController,User reads all medics with specialization=neuro,,OK
+Tue May 21 01:12:48 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,patient1,OK
+Tue May 21 01:12:48 EEST 2019,READ,controller.PatientController,Patient reads his data,patient1,OK
+Tue May 21 01:12:48 EEST 2019,READ,controller.PatientController,Patient reads his data,patient1,OK
+Tue May 21 01:12:48 EEST 2019,READ,controller.MedicController,User reads all medics,,OK
+Tue May 21 01:12:48 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 01:12:48 EEST 2019,READ,controller.CaseController,Read case with id=1,patient1,OK
+Tue May 21 01:12:48 EEST 2019,READ,controller.CaseController,Read case with id=4,patient1,OK
+Tue May 21 01:13:19 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,medic1,OK
+Tue May 21 01:13:19 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 01:13:19 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 01:31:02 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,medic2,OK
+Tue May 21 01:31:02 EEST 2019,READ,controller.MedicController,Medic reads his data,medic2,OK
+Tue May 21 01:31:02 EEST 2019,READ,controller.MedicController,Medic reads his data,medic2,OK
+Tue May 21 01:31:02 EEST 2019,READ,controller.MedicController,Medic reads his patient requests,medic2,OK
+Tue May 21 01:31:02 EEST 2019,READ,controller.MedicController,Medic reads his data,medic2,OK
+Tue May 21 01:31:02 EEST 2019,READ,controller.CaseController,Read case with id=1,medic2,OK
+Tue May 21 01:31:02 EEST 2019,READ,controller.CaseController,Read case with id=3,medic2,OK
+Tue May 21 01:31:20 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,medic1,OK
+Tue May 21 01:31:20 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 01:31:20 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 01:31:20 EEST 2019,READ,controller.MedicController,Medic reads his patient requests,medic1,OK
+Tue May 21 01:31:20 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 01:31:20 EEST 2019,READ,controller.PatientController,User reads data from patient with id=5,medic1,OK
+Tue May 21 01:31:20 EEST 2019,READ,controller.PatientController,User reads data from patient with id=18,medic1,OK
+Tue May 21 01:31:20 EEST 2019,READ,controller.CaseController,Read case with id=1,medic1,OK
+Tue May 21 01:31:20 EEST 2019,READ,controller.CaseController,Read case with id=3,medic1,OK
+Tue May 21 01:31:20 EEST 2019,READ,controller.CaseController,Read case with id=4,medic1,OK
+Tue May 21 01:31:25 EEST 2019,UPDATE,controller.MedicController,Medic accepts request from patient with id=18,medic1,OK
+Tue May 21 01:31:54 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,bogdan,OK
+Tue May 21 01:31:55 EEST 2019,READ,controller.PatientController,Patient reads his data,bogdan,OK
+Tue May 21 01:31:55 EEST 2019,READ,controller.PatientController,Patient reads his data,bogdan,OK
+Tue May 21 01:31:55 EEST 2019,READ,controller.MedicController,User reads all medics,,OK
+Tue May 21 01:31:55 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 01:32:02 EEST 2019,CREATE,controller.CaseController,Patient creates case,bogdan,OK
+Tue May 21 01:32:16 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,medic1,OK
+Tue May 21 01:32:16 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 01:32:16 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 01:32:16 EEST 2019,READ,controller.MedicController,Medic reads his patient requests,medic1,OK
+Tue May 21 01:32:16 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 01:32:16 EEST 2019,READ,controller.PatientController,User reads data from patient with id=5,medic1,OK
+Tue May 21 01:32:16 EEST 2019,READ,controller.CaseController,Read case with id=1,medic1,OK
+Tue May 21 01:32:16 EEST 2019,READ,controller.CaseController,Read case with id=3,medic1,OK
+Tue May 21 01:32:16 EEST 2019,READ,controller.CaseController,Read case with id=4,medic1,OK
+Tue May 21 01:32:16 EEST 2019,READ,controller.CaseController,Read case with id=5,medic1,OK
+Tue May 21 01:50:02 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,medic1,OK
+Tue May 21 01:50:02 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 01:50:02 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 01:50:02 EEST 2019,READ,controller.MedicController,Medic reads his patient requests,medic1,OK
+Tue May 21 01:50:02 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 01:50:02 EEST 2019,READ,controller.PatientController,User reads data from patient with id=5,medic1,OK
+Tue May 21 01:50:02 EEST 2019,READ,controller.CaseController,Read case with id=1,medic1,OK
+Tue May 21 01:50:02 EEST 2019,READ,controller.CaseController,Read case with id=3,medic1,OK
+Tue May 21 01:50:03 EEST 2019,READ,controller.CaseController,Read case with id=4,medic1,OK
+Tue May 21 01:50:03 EEST 2019,READ,controller.CaseController,Read case with id=5,medic1,OK
+Tue May 21 01:56:16 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,medic1,OK
+Tue May 21 01:56:17 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 01:56:17 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 01:56:17 EEST 2019,READ,controller.MedicController,Medic reads his patient requests,medic1,OK
+Tue May 21 01:56:17 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 01:56:17 EEST 2019,READ,controller.PatientController,User reads data from patient with id=5,medic1,OK
+Tue May 21 01:56:17 EEST 2019,READ,controller.CaseController,Read case with id=1,medic1,OK
+Tue May 21 01:56:17 EEST 2019,READ,controller.CaseController,Read case with id=3,medic1,OK
+Tue May 21 01:56:17 EEST 2019,READ,controller.CaseController,Read case with id=4,medic1,OK
+Tue May 21 01:56:17 EEST 2019,READ,controller.CaseController,Read case with id=5,medic1,OK
+Tue May 21 01:56:56 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,medic1,OK
+Tue May 21 01:56:56 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 01:56:56 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 01:56:56 EEST 2019,READ,controller.MedicController,Medic reads his patient requests,medic1,OK
+Tue May 21 01:56:56 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 01:56:56 EEST 2019,READ,controller.PatientController,User reads data from patient with id=5,medic1,OK
+Tue May 21 01:56:56 EEST 2019,READ,controller.CaseController,Read case with id=1,medic1,OK
+Tue May 21 01:56:56 EEST 2019,READ,controller.CaseController,Read case with id=3,medic1,OK
+Tue May 21 01:56:56 EEST 2019,READ,controller.CaseController,Read case with id=4,medic1,OK
+Tue May 21 01:56:56 EEST 2019,READ,controller.CaseController,Read case with id=5,medic1,OK
+Tue May 21 02:01:16 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,medic1,OK
+Tue May 21 02:01:16 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 02:01:16 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 02:01:16 EEST 2019,READ,controller.MedicController,Medic reads his patient requests,medic1,OK
+Tue May 21 02:01:16 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 02:01:16 EEST 2019,READ,controller.PatientController,User reads data from patient with id=5,medic1,OK
+Tue May 21 02:01:16 EEST 2019,READ,controller.CaseController,Read case with id=1,medic1,OK
+Tue May 21 02:01:16 EEST 2019,READ,controller.CaseController,Read case with id=3,medic1,OK
+Tue May 21 02:01:16 EEST 2019,READ,controller.CaseController,Read case with id=4,medic1,OK
+Tue May 21 02:01:16 EEST 2019,READ,controller.CaseController,Read case with id=5,medic1,OK
+Tue May 21 02:02:05 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,medic1,OK
+Tue May 21 02:02:05 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 02:02:05 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 02:02:05 EEST 2019,READ,controller.MedicController,Medic reads his patient requests,medic1,OK
+Tue May 21 02:02:05 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 02:02:05 EEST 2019,READ,controller.PatientController,User reads data from patient with id=5,medic1,OK
+Tue May 21 02:02:05 EEST 2019,READ,controller.CaseController,Read case with id=1,medic1,OK
+Tue May 21 02:02:05 EEST 2019,READ,controller.CaseController,Read case with id=3,medic1,OK
+Tue May 21 02:02:05 EEST 2019,READ,controller.CaseController,Read case with id=4,medic1,OK
+Tue May 21 02:02:05 EEST 2019,READ,controller.CaseController,Read case with id=5,medic1,OK
+Tue May 21 02:05:11 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,medic1,OK
+Tue May 21 02:05:11 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 02:05:11 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 02:05:11 EEST 2019,READ,controller.MedicController,Medic reads his patient requests,medic1,OK
+Tue May 21 02:05:11 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 02:05:11 EEST 2019,READ,controller.PatientController,User reads data from patient with id=5,medic1,OK
+Tue May 21 02:05:11 EEST 2019,READ,controller.CaseController,Read case with id=1,medic1,OK
+Tue May 21 02:05:11 EEST 2019,READ,controller.CaseController,Read case with id=3,medic1,OK
+Tue May 21 02:05:11 EEST 2019,READ,controller.CaseController,Read case with id=4,medic1,OK
+Tue May 21 02:05:11 EEST 2019,READ,controller.CaseController,Read case with id=5,medic1,OK
+Tue May 21 02:06:48 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,medic1,OK
+Tue May 21 02:06:48 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 02:06:48 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 02:06:48 EEST 2019,READ,controller.MedicController,Medic reads his patient requests,medic1,OK
+Tue May 21 02:06:48 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 02:06:48 EEST 2019,READ,controller.PatientController,User reads data from patient with id=5,medic1,OK
+Tue May 21 02:06:48 EEST 2019,READ,controller.CaseController,Read case with id=1,medic1,OK
+Tue May 21 02:06:48 EEST 2019,READ,controller.CaseController,Read case with id=3,medic1,OK
+Tue May 21 02:06:48 EEST 2019,READ,controller.CaseController,Read case with id=4,medic1,OK
+Tue May 21 02:06:48 EEST 2019,READ,controller.CaseController,Read case with id=5,medic1,OK
+Tue May 21 02:07:21 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,medic1,OK
+Tue May 21 02:07:21 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 02:07:21 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 02:07:21 EEST 2019,READ,controller.MedicController,Medic reads his patient requests,medic1,OK
+Tue May 21 02:07:21 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 02:07:21 EEST 2019,READ,controller.PatientController,User reads data from patient with id=5,medic1,OK
+Tue May 21 02:07:21 EEST 2019,READ,controller.CaseController,Read case with id=1,medic1,OK
+Tue May 21 02:07:21 EEST 2019,READ,controller.CaseController,Read case with id=3,medic1,OK
+Tue May 21 02:07:21 EEST 2019,READ,controller.CaseController,Read case with id=4,medic1,OK
+Tue May 21 02:07:21 EEST 2019,READ,controller.CaseController,Read case with id=5,medic1,OK
+Tue May 21 02:07:47 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,medic1,OK
+Tue May 21 02:07:47 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 02:07:47 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 02:07:47 EEST 2019,READ,controller.MedicController,Medic reads his patient requests,medic1,OK
+Tue May 21 02:07:47 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 02:07:47 EEST 2019,READ,controller.PatientController,User reads data from patient with id=5,medic1,OK
+Tue May 21 02:07:47 EEST 2019,READ,controller.CaseController,Read case with id=1,medic1,OK
+Tue May 21 02:07:47 EEST 2019,READ,controller.CaseController,Read case with id=3,medic1,OK
+Tue May 21 02:07:47 EEST 2019,READ,controller.CaseController,Read case with id=4,medic1,OK
+Tue May 21 02:07:47 EEST 2019,READ,controller.CaseController,Read case with id=5,medic1,OK
+Tue May 21 02:08:13 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,medic1,OK
+Tue May 21 02:08:13 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 02:08:13 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 02:08:13 EEST 2019,READ,controller.MedicController,Medic reads his patient requests,medic1,OK
+Tue May 21 02:08:13 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 02:08:14 EEST 2019,READ,controller.PatientController,User reads data from patient with id=5,medic1,OK
+Tue May 21 02:08:14 EEST 2019,READ,controller.CaseController,Read case with id=1,medic1,OK
+Tue May 21 02:08:14 EEST 2019,READ,controller.CaseController,Read case with id=3,medic1,OK
+Tue May 21 02:08:14 EEST 2019,READ,controller.CaseController,Read case with id=4,medic1,OK
+Tue May 21 02:08:14 EEST 2019,READ,controller.CaseController,Read case with id=5,medic1,OK
+Tue May 21 02:13:12 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,medic1,OK
+Tue May 21 02:13:12 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 02:13:12 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 02:13:12 EEST 2019,READ,controller.MedicController,Medic reads his patient requests,medic1,OK
+Tue May 21 02:13:12 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 02:13:12 EEST 2019,READ,controller.PatientController,User reads data from patient with id=5,medic1,OK
+Tue May 21 02:13:12 EEST 2019,READ,controller.CaseController,Read case with id=1,medic1,OK
+Tue May 21 02:13:12 EEST 2019,READ,controller.CaseController,Read case with id=3,medic1,OK
+Tue May 21 02:13:12 EEST 2019,READ,controller.CaseController,Read case with id=4,medic1,OK
+Tue May 21 02:13:12 EEST 2019,READ,controller.CaseController,Read case with id=5,medic1,OK
+Tue May 21 02:26:26 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,medic1,OK
+Tue May 21 02:26:26 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 02:26:26 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 02:26:26 EEST 2019,READ,controller.MedicController,Medic reads his patient requests,medic1,OK
+Tue May 21 02:26:26 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 02:26:26 EEST 2019,READ,controller.PatientController,User reads data from patient with id=5,medic1,OK
+Tue May 21 02:26:26 EEST 2019,READ,controller.CaseController,Read case with id=1,medic1,OK
+Tue May 21 02:26:26 EEST 2019,READ,controller.CaseController,Read case with id=3,medic1,OK
+Tue May 21 02:26:26 EEST 2019,READ,controller.CaseController,Read case with id=4,medic1,OK
+Tue May 21 02:26:26 EEST 2019,READ,controller.CaseController,Read case with id=5,medic1,OK
+Tue May 21 02:26:30 EEST 2019,READ,controller.CaseController,Read case with id=1,medic1,OK
+Tue May 21 02:26:30 EEST 2019,READ,controller.PatientController,User reads data from patient with id=4,medic1,OK
+Tue May 21 02:26:30 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 02:26:30 EEST 2019,READ,controller.MedicController,User reads medic with id=3,,OK
+Tue May 21 02:26:59 EEST 2019,READ,controller.CaseController,Read case with id=3,medic1,OK
+Tue May 21 02:26:59 EEST 2019,READ,controller.PatientController,User reads data from patient with id=16,medic1,OK
+Tue May 21 02:26:59 EEST 2019,READ,controller.MedicController,User reads medic with id=3,,OK
+Tue May 21 02:26:59 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 02:33:29 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,medic1,OK
+Tue May 21 02:33:29 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 02:33:29 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 02:33:29 EEST 2019,READ,controller.MedicController,Medic reads his patient requests,medic1,OK
+Tue May 21 02:33:30 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 02:33:30 EEST 2019,READ,controller.PatientController,User reads data from patient with id=5,medic1,OK
+Tue May 21 02:33:30 EEST 2019,READ,controller.CaseController,Read case with id=1,medic1,OK
+Tue May 21 02:33:30 EEST 2019,READ,controller.CaseController,Read case with id=3,medic1,OK
+Tue May 21 02:33:30 EEST 2019,READ,controller.CaseController,Read case with id=4,medic1,OK
+Tue May 21 02:33:30 EEST 2019,READ,controller.CaseController,Read case with id=5,medic1,OK
+Tue May 21 02:33:33 EEST 2019,READ,controller.CaseController,Read case with id=1,medic1,OK
+Tue May 21 02:33:33 EEST 2019,READ,controller.PatientController,User reads data from patient with id=4,medic1,OK
+Tue May 21 02:33:33 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 02:33:33 EEST 2019,READ,controller.MedicController,User reads medic with id=3,,OK
+Tue May 21 02:33:51 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,patient1,OK
+Tue May 21 02:33:52 EEST 2019,READ,controller.PatientController,Patient reads his data,patient1,OK
+Tue May 21 02:33:52 EEST 2019,READ,controller.PatientController,Patient reads his data,patient1,OK
+Tue May 21 02:33:52 EEST 2019,READ,controller.MedicController,User reads all medics,,OK
+Tue May 21 02:33:52 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 02:33:52 EEST 2019,READ,controller.CaseController,Read case with id=1,patient1,OK
+Tue May 21 02:33:52 EEST 2019,READ,controller.CaseController,Read case with id=4,patient1,OK
+Tue May 21 02:33:57 EEST 2019,READ,controller.CaseController,Read case with id=1,patient1,OK
+Tue May 21 02:33:57 EEST 2019,READ,controller.PatientController,User reads data from patient with id=4,patient1,OK
+Tue May 21 02:33:57 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 02:33:57 EEST 2019,READ,controller.MedicController,User reads medic with id=3,,OK
+Tue May 21 02:49:52 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,patient1,OK
+Tue May 21 02:49:52 EEST 2019,READ,controller.PatientController,Patient reads his data,patient1,OK
+Tue May 21 02:49:52 EEST 2019,READ,controller.PatientController,Patient reads his data,patient1,OK
+Tue May 21 02:49:52 EEST 2019,READ,controller.MedicController,User reads all medics,,OK
+Tue May 21 02:49:52 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 02:49:52 EEST 2019,READ,controller.CaseController,Read case with id=1,patient1,OK
+Tue May 21 02:49:52 EEST 2019,READ,controller.CaseController,Read case with id=4,patient1,OK
+Tue May 21 02:49:55 EEST 2019,READ,controller.CaseController,Read case with id=1,patient1,OK
+Tue May 21 02:49:55 EEST 2019,READ,controller.PatientController,User reads data from patient with id=4,patient1,OK
+Tue May 21 02:49:55 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 02:49:55 EEST 2019,READ,controller.MedicController,User reads medic with id=3,,OK
+Tue May 21 02:51:30 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,patient1,OK
+Tue May 21 02:51:30 EEST 2019,READ,controller.PatientController,Patient reads his data,patient1,OK
+Tue May 21 02:51:30 EEST 2019,READ,controller.PatientController,Patient reads his data,patient1,OK
+Tue May 21 02:51:30 EEST 2019,READ,controller.MedicController,User reads all medics,,OK
+Tue May 21 02:51:30 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 02:51:30 EEST 2019,READ,controller.CaseController,Read case with id=1,patient1,OK
+Tue May 21 02:51:30 EEST 2019,READ,controller.CaseController,Read case with id=4,patient1,OK
+Tue May 21 02:51:35 EEST 2019,READ,controller.CaseController,Read case with id=1,patient1,OK
+Tue May 21 02:51:35 EEST 2019,READ,controller.PatientController,User reads data from patient with id=4,patient1,OK
+Tue May 21 02:51:35 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 02:51:35 EEST 2019,READ,controller.MedicController,User reads medic with id=3,,OK
+Tue May 21 02:52:12 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,patient1,OK
+Tue May 21 02:52:12 EEST 2019,READ,controller.PatientController,Patient reads his data,patient1,OK
+Tue May 21 02:52:12 EEST 2019,READ,controller.PatientController,Patient reads his data,patient1,OK
+Tue May 21 02:52:12 EEST 2019,READ,controller.MedicController,User reads all medics,,OK
+Tue May 21 02:52:12 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 02:52:12 EEST 2019,READ,controller.CaseController,Read case with id=1,patient1,OK
+Tue May 21 02:52:12 EEST 2019,READ,controller.CaseController,Read case with id=4,patient1,OK
+Tue May 21 02:52:15 EEST 2019,READ,controller.CaseController,Read case with id=1,patient1,OK
+Tue May 21 02:52:16 EEST 2019,READ,controller.PatientController,User reads data from patient with id=4,patient1,OK
+Tue May 21 02:52:16 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 02:52:16 EEST 2019,READ,controller.MedicController,User reads medic with id=3,,OK
+Tue May 21 02:53:30 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,patient1,OK
+Tue May 21 02:53:30 EEST 2019,READ,controller.PatientController,Patient reads his data,patient1,OK
+Tue May 21 02:53:30 EEST 2019,READ,controller.PatientController,Patient reads his data,patient1,OK
+Tue May 21 02:53:30 EEST 2019,READ,controller.MedicController,User reads all medics,,OK
+Tue May 21 02:53:31 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 02:53:31 EEST 2019,READ,controller.CaseController,Read case with id=1,patient1,OK
+Tue May 21 02:53:31 EEST 2019,READ,controller.CaseController,Read case with id=4,patient1,OK
+Tue May 21 02:53:34 EEST 2019,READ,controller.CaseController,Read case with id=1,patient1,OK
+Tue May 21 02:53:35 EEST 2019,READ,controller.PatientController,User reads data from patient with id=4,patient1,OK
+Tue May 21 02:53:35 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 02:53:35 EEST 2019,READ,controller.MedicController,User reads medic with id=3,,OK
+Tue May 21 02:54:26 EEST 2019,READ,controller.MedicController,User reads all medics,,OK
+Tue May 21 02:54:31 EEST 2019,READ,controller.MedicController,User reads all medics with specialization=myspec1,,OK
+Tue May 21 03:03:42 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,patient1,OK
+Tue May 21 03:03:42 EEST 2019,READ,controller.PatientController,Patient reads his data,patient1,OK
+Tue May 21 03:03:42 EEST 2019,READ,controller.PatientController,Patient reads his data,patient1,OK
+Tue May 21 03:03:42 EEST 2019,READ,controller.MedicController,User reads all medics,,OK
+Tue May 21 03:03:42 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 03:03:42 EEST 2019,READ,controller.CaseController,Read case with id=1,patient1,OK
+Tue May 21 03:03:42 EEST 2019,READ,controller.CaseController,Read case with id=4,patient1,OK
+Tue May 21 03:03:46 EEST 2019,READ,controller.CaseController,Read case with id=1,patient1,OK
+Tue May 21 03:03:47 EEST 2019,READ,controller.PatientController,User reads data from patient with id=4,patient1,OK
+Tue May 21 03:03:47 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 03:03:47 EEST 2019,READ,controller.MedicController,User reads medic with id=3,,OK
+Tue May 21 03:04:00 EEST 2019,UPDATE,controller.CaseController,Patient adds symptom to case with id=1,patient1,OK
+Tue May 21 03:04:42 EEST 2019,UPDATE,controller.CaseController,Patient removes symptom from case with id=1,patient1,OK
+Tue May 21 03:04:49 EEST 2019,READ,controller.CaseController,Read case with id=1,patient1,OK
+Tue May 21 03:04:49 EEST 2019,READ,controller.PatientController,User reads data from patient with id=4,patient1,OK
+Tue May 21 03:04:49 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 03:04:49 EEST 2019,READ,controller.MedicController,User reads medic with id=3,,OK
+Tue May 21 03:05:02 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,patient1,OK
+Tue May 21 03:05:02 EEST 2019,READ,controller.PatientController,Patient reads his data,patient1,OK
+Tue May 21 03:05:02 EEST 2019,READ,controller.PatientController,Patient reads his data,patient1,OK
+Tue May 21 03:05:02 EEST 2019,READ,controller.MedicController,User reads all medics,,OK
+Tue May 21 03:05:02 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 03:05:02 EEST 2019,READ,controller.CaseController,Read case with id=1,patient1,OK
+Tue May 21 03:05:02 EEST 2019,READ,controller.CaseController,Read case with id=4,patient1,OK
+Tue May 21 03:05:05 EEST 2019,READ,controller.CaseController,Read case with id=1,patient1,OK
+Tue May 21 03:05:07 EEST 2019,READ,controller.PatientController,User reads data from patient with id=4,patient1,OK
+Tue May 21 03:05:07 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 03:05:07 EEST 2019,READ,controller.MedicController,User reads medic with id=3,,OK
+Tue May 21 03:07:33 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,patient1,OK
+Tue May 21 03:07:33 EEST 2019,READ,controller.PatientController,Patient reads his data,patient1,OK
+Tue May 21 03:07:33 EEST 2019,READ,controller.PatientController,Patient reads his data,patient1,OK
+Tue May 21 03:07:33 EEST 2019,READ,controller.MedicController,User reads all medics,,OK
+Tue May 21 03:07:33 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 03:07:33 EEST 2019,READ,controller.CaseController,Read case with id=1,patient1,OK
+Tue May 21 03:07:33 EEST 2019,READ,controller.CaseController,Read case with id=4,patient1,OK
+Tue May 21 03:07:37 EEST 2019,READ,controller.CaseController,Read case with id=1,patient1,OK
+Tue May 21 03:07:38 EEST 2019,READ,controller.PatientController,User reads data from patient with id=4,patient1,OK
+Tue May 21 03:07:38 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 03:07:38 EEST 2019,READ,controller.MedicController,User reads medic with id=3,,OK
+Tue May 21 03:08:08 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,patient1,OK
+Tue May 21 03:08:08 EEST 2019,READ,controller.PatientController,Patient reads his data,patient1,OK
+Tue May 21 03:08:08 EEST 2019,READ,controller.PatientController,Patient reads his data,patient1,OK
+Tue May 21 03:08:08 EEST 2019,READ,controller.MedicController,User reads all medics,,OK
+Tue May 21 03:08:08 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 03:08:08 EEST 2019,READ,controller.CaseController,Read case with id=1,patient1,OK
+Tue May 21 03:08:08 EEST 2019,READ,controller.CaseController,Read case with id=4,patient1,OK
+Tue May 21 03:08:11 EEST 2019,READ,controller.CaseController,Read case with id=1,patient1,OK
+Tue May 21 03:08:12 EEST 2019,READ,controller.PatientController,User reads data from patient with id=4,patient1,OK
+Tue May 21 03:08:12 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 03:08:12 EEST 2019,READ,controller.MedicController,User reads medic with id=3,,OK
+Tue May 21 03:08:22 EEST 2019,UPDATE,controller.CaseController,Patient adds symptom to case with id=1,patient1,OK
+Tue May 21 03:08:45 EEST 2019,READ,controller.CaseController,Read case with id=1,patient1,OK
+Tue May 21 03:08:45 EEST 2019,READ,controller.PatientController,User reads data from patient with id=4,patient1,OK
+Tue May 21 03:08:45 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 03:08:45 EEST 2019,READ,controller.MedicController,User reads medic with id=3,,OK
+Tue May 21 03:08:49 EEST 2019,UPDATE,controller.CaseController,Patient removes symptom from case with id=1,patient1,OK
+Tue May 21 03:08:52 EEST 2019,READ,controller.CaseController,Read case with id=1,patient1,OK
+Tue May 21 03:08:52 EEST 2019,READ,controller.PatientController,User reads data from patient with id=4,patient1,OK
+Tue May 21 03:08:52 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 03:08:52 EEST 2019,READ,controller.MedicController,User reads medic with id=3,,OK
+Tue May 21 03:10:00 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,patient1,OK
+Tue May 21 03:10:00 EEST 2019,READ,controller.PatientController,Patient reads his data,patient1,OK
+Tue May 21 03:10:00 EEST 2019,READ,controller.PatientController,Patient reads his data,patient1,OK
+Tue May 21 03:10:00 EEST 2019,READ,controller.MedicController,User reads all medics,,OK
+Tue May 21 03:10:00 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 03:10:00 EEST 2019,READ,controller.CaseController,Read case with id=1,patient1,OK
+Tue May 21 03:10:00 EEST 2019,READ,controller.CaseController,Read case with id=4,patient1,OK
+Tue May 21 03:10:03 EEST 2019,READ,controller.CaseController,Read case with id=1,patient1,OK
+Tue May 21 03:10:05 EEST 2019,READ,controller.PatientController,User reads data from patient with id=4,patient1,OK
+Tue May 21 03:10:05 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 03:10:05 EEST 2019,READ,controller.MedicController,User reads medic with id=3,,OK
+Tue May 21 03:10:15 EEST 2019,UPDATE,controller.CaseController,Patient adds symptom to case with id=1,patient1,OK
+Tue May 21 03:10:29 EEST 2019,READ,controller.CaseController,Read case with id=1,patient1,OK
+Tue May 21 03:10:29 EEST 2019,READ,controller.PatientController,User reads data from patient with id=4,patient1,OK
+Tue May 21 03:10:29 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 03:10:29 EEST 2019,READ,controller.MedicController,User reads medic with id=3,,OK
+Tue May 21 03:10:32 EEST 2019,UPDATE,controller.CaseController,Patient removes symptom from case with id=1,patient1,OK
+Tue May 21 03:15:37 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,patient1,UNAUTHORIZED
+Tue May 21 03:15:48 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,patient1,OK
+Tue May 21 03:15:48 EEST 2019,READ,controller.PatientController,Patient reads his data,patient1,OK
+Tue May 21 03:15:48 EEST 2019,READ,controller.PatientController,Patient reads his data,patient1,OK
+Tue May 21 03:15:48 EEST 2019,READ,controller.MedicController,User reads all medics,,OK
+Tue May 21 03:15:48 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 03:15:48 EEST 2019,READ,controller.CaseController,Read case with id=1,patient1,OK
+Tue May 21 03:15:48 EEST 2019,READ,controller.CaseController,Read case with id=4,patient1,OK
+Tue May 21 03:15:51 EEST 2019,READ,controller.CaseController,Read case with id=1,patient1,OK
+Tue May 21 03:15:53 EEST 2019,READ,controller.PatientController,User reads data from patient with id=4,patient1,OK
+Tue May 21 03:15:53 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 03:15:53 EEST 2019,READ,controller.MedicController,User reads medic with id=3,,OK
+Tue May 21 03:16:00 EEST 2019,UPDATE,controller.CaseController,Patient adds symptom to case with id=1,patient1,OK
+Tue May 21 03:16:04 EEST 2019,UPDATE,controller.CaseController,Patient removes symptom from case with id=1,patient1,OK
+Tue May 21 03:16:07 EEST 2019,UPDATE,controller.CaseController,Patient adds symptom to case with id=1,patient1,OK
+Tue May 21 03:16:10 EEST 2019,UPDATE,controller.CaseController,Patient removes symptom from case with id=1,patient1,OK
+Tue May 21 03:16:16 EEST 2019,READ,controller.CaseController,Read case with id=1,patient1,OK
+Tue May 21 03:16:16 EEST 2019,READ,controller.PatientController,User reads data from patient with id=4,patient1,OK
+Tue May 21 03:16:16 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 03:16:16 EEST 2019,READ,controller.MedicController,User reads medic with id=3,,OK
+Tue May 21 03:16:23 EEST 2019,UPDATE,controller.CaseController,Patient adds symptom to case with id=1,,UNAUTHORIZED
+Tue May 21 03:16:59 EEST 2019,READ,controller.CaseController,Read case with id=1,patient1,OK
+Tue May 21 03:16:59 EEST 2019,READ,controller.PatientController,User reads data from patient with id=4,patient1,OK
+Tue May 21 03:16:59 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 03:16:59 EEST 2019,READ,controller.MedicController,User reads medic with id=3,,OK
+Tue May 21 03:17:37 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,csdio,UNAUTHORIZED
+Tue May 21 03:36:09 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,medic1,OK
+Tue May 21 03:36:09 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 03:36:09 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 03:36:09 EEST 2019,READ,controller.MedicController,Medic reads his patient requests,medic1,OK
+Tue May 21 03:36:09 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 03:36:09 EEST 2019,READ,controller.PatientController,User reads data from patient with id=5,medic1,OK
+Tue May 21 03:36:09 EEST 2019,READ,controller.CaseController,Read case with id=1,medic1,OK
+Tue May 21 03:36:09 EEST 2019,READ,controller.CaseController,Read case with id=3,medic1,OK
+Tue May 21 03:36:09 EEST 2019,READ,controller.CaseController,Read case with id=4,medic1,OK
+Tue May 21 03:36:09 EEST 2019,READ,controller.CaseController,Read case with id=5,medic1,OK
+Tue May 21 03:36:12 EEST 2019,READ,controller.CaseController,Read case with id=1,medic1,OK
+Tue May 21 03:36:13 EEST 2019,READ,controller.PatientController,User reads data from patient with id=4,medic1,OK
+Tue May 21 03:36:13 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 03:36:13 EEST 2019,READ,controller.MedicController,User reads medic with id=3,,OK
+Tue May 21 03:36:43 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,medic1,OK
+Tue May 21 03:36:43 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 03:36:43 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 03:36:43 EEST 2019,READ,controller.MedicController,Medic reads his patient requests,medic1,OK
+Tue May 21 03:36:43 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 03:36:43 EEST 2019,READ,controller.PatientController,User reads data from patient with id=5,medic1,OK
+Tue May 21 03:36:43 EEST 2019,READ,controller.CaseController,Read case with id=1,medic1,OK
+Tue May 21 03:36:43 EEST 2019,READ,controller.CaseController,Read case with id=3,medic1,OK
+Tue May 21 03:36:43 EEST 2019,READ,controller.CaseController,Read case with id=4,medic1,OK
+Tue May 21 03:36:43 EEST 2019,READ,controller.CaseController,Read case with id=5,medic1,OK
+Tue May 21 03:36:46 EEST 2019,READ,controller.CaseController,Read case with id=1,medic1,OK
+Tue May 21 03:36:47 EEST 2019,READ,controller.PatientController,User reads data from patient with id=4,medic1,OK
+Tue May 21 03:36:47 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 03:36:47 EEST 2019,READ,controller.MedicController,User reads medic with id=3,,OK
+Tue May 21 03:37:54 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,medic1,OK
+Tue May 21 03:37:54 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 03:37:54 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 03:37:54 EEST 2019,READ,controller.MedicController,Medic reads his patient requests,medic1,OK
+Tue May 21 03:37:54 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 03:37:54 EEST 2019,READ,controller.PatientController,User reads data from patient with id=5,medic1,OK
+Tue May 21 03:37:54 EEST 2019,READ,controller.CaseController,Read case with id=1,medic1,OK
+Tue May 21 03:37:54 EEST 2019,READ,controller.CaseController,Read case with id=3,medic1,OK
+Tue May 21 03:37:54 EEST 2019,READ,controller.CaseController,Read case with id=4,medic1,OK
+Tue May 21 03:37:54 EEST 2019,READ,controller.CaseController,Read case with id=5,medic1,OK
+Tue May 21 03:37:57 EEST 2019,READ,controller.CaseController,Read case with id=1,medic1,OK
+Tue May 21 03:37:59 EEST 2019,READ,controller.PatientController,User reads data from patient with id=4,medic1,OK
+Tue May 21 03:37:59 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 03:37:59 EEST 2019,READ,controller.MedicController,User reads medic with id=3,,OK
+Tue May 21 03:43:41 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,medic1,OK
+Tue May 21 03:43:41 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 03:43:41 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 03:43:41 EEST 2019,READ,controller.MedicController,Medic reads his patient requests,medic1,OK
+Tue May 21 03:43:41 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 03:43:41 EEST 2019,READ,controller.PatientController,User reads data from patient with id=5,medic1,OK
+Tue May 21 03:43:41 EEST 2019,READ,controller.CaseController,Read case with id=1,medic1,OK
+Tue May 21 03:43:41 EEST 2019,READ,controller.CaseController,Read case with id=3,medic1,OK
+Tue May 21 03:43:41 EEST 2019,READ,controller.CaseController,Read case with id=4,medic1,OK
+Tue May 21 03:43:41 EEST 2019,READ,controller.CaseController,Read case with id=5,medic1,OK
+Tue May 21 03:43:44 EEST 2019,READ,controller.CaseController,Read case with id=1,medic1,OK
+Tue May 21 03:43:46 EEST 2019,READ,controller.PatientController,User reads data from patient with id=4,medic1,OK
+Tue May 21 03:43:46 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 03:43:46 EEST 2019,READ,controller.MedicController,User reads medic with id=3,,OK
+Tue May 21 03:44:24 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,medic1,OK
+Tue May 21 03:44:24 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 03:44:24 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 03:44:24 EEST 2019,READ,controller.MedicController,Medic reads his patient requests,medic1,OK
+Tue May 21 03:44:24 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 03:44:24 EEST 2019,READ,controller.PatientController,User reads data from patient with id=5,medic1,OK
+Tue May 21 03:44:24 EEST 2019,READ,controller.CaseController,Read case with id=1,medic1,OK
+Tue May 21 03:44:24 EEST 2019,READ,controller.CaseController,Read case with id=3,medic1,OK
+Tue May 21 03:44:24 EEST 2019,READ,controller.CaseController,Read case with id=4,medic1,OK
+Tue May 21 03:44:24 EEST 2019,READ,controller.CaseController,Read case with id=5,medic1,OK
+Tue May 21 03:44:28 EEST 2019,READ,controller.CaseController,Read case with id=1,medic1,OK
+Tue May 21 03:44:29 EEST 2019,READ,controller.PatientController,User reads data from patient with id=4,medic1,OK
+Tue May 21 03:44:29 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 03:44:29 EEST 2019,READ,controller.MedicController,User reads medic with id=3,,OK
+Tue May 21 03:45:06 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,medic1,OK
+Tue May 21 03:45:06 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 03:45:06 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 03:45:06 EEST 2019,READ,controller.MedicController,Medic reads his patient requests,medic1,OK
+Tue May 21 03:45:06 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 03:45:06 EEST 2019,READ,controller.PatientController,User reads data from patient with id=5,medic1,OK
+Tue May 21 03:45:06 EEST 2019,READ,controller.CaseController,Read case with id=1,medic1,OK
+Tue May 21 03:45:06 EEST 2019,READ,controller.CaseController,Read case with id=3,medic1,OK
+Tue May 21 03:45:06 EEST 2019,READ,controller.CaseController,Read case with id=4,medic1,OK
+Tue May 21 03:45:06 EEST 2019,READ,controller.CaseController,Read case with id=5,medic1,OK
+Tue May 21 03:45:10 EEST 2019,READ,controller.CaseController,Read case with id=1,medic1,OK
+Tue May 21 03:45:11 EEST 2019,READ,controller.PatientController,User reads data from patient with id=4,medic1,OK
+Tue May 21 03:45:11 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 03:45:11 EEST 2019,READ,controller.MedicController,User reads medic with id=3,,OK
+Tue May 21 03:45:29 EEST 2019,UPDATE,controller.CaseController,Medic adds medication to case with id=1,medic1,OK
+Tue May 21 03:45:33 EEST 2019,READ,controller.CaseController,Read case with id=1,medic1,OK
+Tue May 21 03:45:33 EEST 2019,READ,controller.PatientController,User reads data from patient with id=4,medic1,OK
+Tue May 21 03:45:33 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 03:45:33 EEST 2019,READ,controller.MedicController,User reads medic with id=3,,OK
+Tue May 21 03:45:36 EEST 2019,UPDATE,controller.CaseController,Medic removes medication from case with id=1,medic1,OK
+Tue May 21 03:45:55 EEST 2019,READ,controller.CaseController,Read case with id=1,medic1,OK
+Tue May 21 03:45:55 EEST 2019,READ,controller.PatientController,User reads data from patient with id=4,medic1,OK
+Tue May 21 03:45:55 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 03:45:55 EEST 2019,READ,controller.MedicController,User reads medic with id=3,,OK
+Tue May 21 03:46:59 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,medic1,OK
+Tue May 21 03:46:59 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 03:46:59 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 03:46:59 EEST 2019,READ,controller.MedicController,Medic reads his patient requests,medic1,OK
+Tue May 21 03:46:59 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 03:46:59 EEST 2019,READ,controller.PatientController,User reads data from patient with id=5,medic1,OK
+Tue May 21 03:46:59 EEST 2019,READ,controller.CaseController,Read case with id=1,medic1,OK
+Tue May 21 03:46:59 EEST 2019,READ,controller.CaseController,Read case with id=3,medic1,OK
+Tue May 21 03:46:59 EEST 2019,READ,controller.CaseController,Read case with id=4,medic1,OK
+Tue May 21 03:46:59 EEST 2019,READ,controller.CaseController,Read case with id=5,medic1,OK
+Tue May 21 03:47:03 EEST 2019,READ,controller.CaseController,Read case with id=1,medic1,OK
+Tue May 21 03:47:04 EEST 2019,READ,controller.PatientController,User reads data from patient with id=4,medic1,OK
+Tue May 21 03:47:04 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 03:47:04 EEST 2019,READ,controller.MedicController,User reads medic with id=3,,OK
+Tue May 21 03:47:11 EEST 2019,UPDATE,controller.CaseController,Medic adds medication to case with id=1,medic1,OK
+Tue May 21 03:47:15 EEST 2019,UPDATE,controller.CaseController,Medic removes medication from case with id=1,medic1,OK
+Tue May 21 03:47:45 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,medic1,OK
+Tue May 21 03:47:45 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 03:47:45 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 03:47:45 EEST 2019,READ,controller.MedicController,Medic reads his patient requests,medic1,OK
+Tue May 21 03:47:45 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 03:47:45 EEST 2019,READ,controller.PatientController,User reads data from patient with id=5,medic1,OK
+Tue May 21 03:47:45 EEST 2019,READ,controller.CaseController,Read case with id=1,medic1,OK
+Tue May 21 03:47:45 EEST 2019,READ,controller.CaseController,Read case with id=3,medic1,OK
+Tue May 21 03:47:45 EEST 2019,READ,controller.CaseController,Read case with id=4,medic1,OK
+Tue May 21 03:47:45 EEST 2019,READ,controller.CaseController,Read case with id=5,medic1,OK
+Tue May 21 03:47:48 EEST 2019,READ,controller.CaseController,Read case with id=1,medic1,OK
+Tue May 21 03:47:49 EEST 2019,READ,controller.PatientController,User reads data from patient with id=4,medic1,OK
+Tue May 21 03:47:49 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 03:47:49 EEST 2019,READ,controller.MedicController,User reads medic with id=3,,OK
+Tue May 21 03:47:56 EEST 2019,UPDATE,controller.CaseController,Medic adds medication to case with id=1,medic1,OK
+Tue May 21 03:48:22 EEST 2019,UPDATE,controller.CaseController,Medic removes medication from case with id=1,medic1,OK
+Tue May 21 03:50:46 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,medic1,OK
+Tue May 21 03:50:46 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 03:50:46 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 03:50:46 EEST 2019,READ,controller.MedicController,Medic reads his patient requests,medic1,OK
+Tue May 21 03:50:46 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 03:50:46 EEST 2019,READ,controller.PatientController,User reads data from patient with id=5,medic1,OK
+Tue May 21 03:50:46 EEST 2019,READ,controller.CaseController,Read case with id=1,medic1,OK
+Tue May 21 03:50:46 EEST 2019,READ,controller.CaseController,Read case with id=3,medic1,OK
+Tue May 21 03:50:46 EEST 2019,READ,controller.CaseController,Read case with id=4,medic1,OK
+Tue May 21 03:50:46 EEST 2019,READ,controller.CaseController,Read case with id=5,medic1,OK
+Tue May 21 03:50:53 EEST 2019,READ,controller.CaseController,Read case with id=1,medic1,OK
+Tue May 21 03:50:54 EEST 2019,READ,controller.PatientController,User reads data from patient with id=4,medic1,OK
+Tue May 21 03:50:54 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 03:50:54 EEST 2019,READ,controller.MedicController,User reads medic with id=3,,OK
+Tue May 21 03:58:25 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,medic1,OK
+Tue May 21 03:58:25 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 03:58:25 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 03:58:25 EEST 2019,READ,controller.MedicController,Medic reads his patient requests,medic1,OK
+Tue May 21 03:58:25 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 03:58:25 EEST 2019,READ,controller.PatientController,User reads data from patient with id=5,medic1,OK
+Tue May 21 03:58:25 EEST 2019,READ,controller.CaseController,Read case with id=1,medic1,OK
+Tue May 21 03:58:25 EEST 2019,READ,controller.CaseController,Read case with id=3,medic1,OK
+Tue May 21 03:58:25 EEST 2019,READ,controller.CaseController,Read case with id=4,medic1,OK
+Tue May 21 03:58:25 EEST 2019,READ,controller.CaseController,Read case with id=5,medic1,OK
+Tue May 21 03:58:28 EEST 2019,READ,controller.CaseController,Read case with id=4,medic1,OK
+Tue May 21 03:58:30 EEST 2019,READ,controller.PatientController,User reads data from patient with id=4,medic1,OK
+Tue May 21 03:58:30 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 03:58:37 EEST 2019,UPDATE,controller.CaseController,Medic adds medic with id=3 to case with id=4,medic1,OK
+Tue May 21 03:58:47 EEST 2019,READ,controller.CaseController,Read case with id=4,medic1,OK
+Tue May 21 03:58:47 EEST 2019,READ,controller.PatientController,User reads data from patient with id=4,medic1,OK
+Tue May 21 03:58:47 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 03:58:47 EEST 2019,READ,controller.MedicController,User reads medic with id=3,,OK
+Tue May 21 04:00:58 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,medic1,OK
+Tue May 21 04:00:58 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 04:00:59 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 04:00:59 EEST 2019,READ,controller.MedicController,Medic reads his patient requests,medic1,OK
+Tue May 21 04:00:59 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 04:00:59 EEST 2019,READ,controller.PatientController,User reads data from patient with id=5,medic1,OK
+Tue May 21 04:00:59 EEST 2019,READ,controller.CaseController,Read case with id=1,medic1,OK
+Tue May 21 04:00:59 EEST 2019,READ,controller.CaseController,Read case with id=3,medic1,OK
+Tue May 21 04:00:59 EEST 2019,READ,controller.CaseController,Read case with id=4,medic1,OK
+Tue May 21 04:00:59 EEST 2019,READ,controller.CaseController,Read case with id=5,medic1,OK
+Tue May 21 04:01:01 EEST 2019,READ,controller.CaseController,Read case with id=4,medic1,OK
+Tue May 21 04:01:02 EEST 2019,READ,controller.PatientController,User reads data from patient with id=4,medic1,OK
+Tue May 21 04:01:02 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 04:01:02 EEST 2019,READ,controller.MedicController,User reads medic with id=3,,OK
+Tue May 21 04:01:05 EEST 2019,UPDATE,controller.CaseController,Medic adds medic with id=3 to case with id=4,medic1,OK
+Tue May 21 04:01:05 EEST 2019,READ,controller.MedicController,User reads medic with id=3,,OK
+Tue May 21 04:01:10 EEST 2019,READ,controller.CaseController,Read case with id=4,medic1,OK
+Tue May 21 04:01:10 EEST 2019,READ,controller.PatientController,User reads data from patient with id=4,medic1,OK
+Tue May 21 04:01:10 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 04:01:10 EEST 2019,READ,controller.MedicController,User reads medic with id=3,,OK
+Tue May 21 04:01:29 EEST 2019,READ,controller.CaseController,Read case with id=5,medic1,OK
+Tue May 21 04:01:29 EEST 2019,READ,controller.PatientController,User reads data from patient with id=18,medic1,OK
+Tue May 21 04:01:29 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 04:01:33 EEST 2019,UPDATE,controller.CaseController,Medic adds medic with id=3 to case with id=5,medic1,OK
+Tue May 21 04:01:33 EEST 2019,READ,controller.MedicController,User reads medic with id=3,,OK
+Tue May 21 04:01:36 EEST 2019,READ,controller.CaseController,Read case with id=5,medic1,OK
+Tue May 21 04:01:36 EEST 2019,READ,controller.PatientController,User reads data from patient with id=18,medic1,OK
+Tue May 21 04:01:36 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 04:01:36 EEST 2019,READ,controller.MedicController,User reads medic with id=3,,OK
+Tue May 21 04:04:09 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,medic1,OK
+Tue May 21 04:04:09 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 04:04:09 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 04:04:09 EEST 2019,READ,controller.MedicController,Medic reads his patient requests,medic1,OK
+Tue May 21 04:04:09 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 04:04:09 EEST 2019,READ,controller.PatientController,User reads data from patient with id=5,medic1,OK
+Tue May 21 04:04:09 EEST 2019,READ,controller.CaseController,Read case with id=1,medic1,OK
+Tue May 21 04:04:09 EEST 2019,READ,controller.CaseController,Read case with id=3,medic1,OK
+Tue May 21 04:04:09 EEST 2019,READ,controller.CaseController,Read case with id=4,medic1,OK
+Tue May 21 04:04:09 EEST 2019,READ,controller.CaseController,Read case with id=5,medic1,OK
+Tue May 21 04:04:18 EEST 2019,READ,controller.CaseController,Read case with id=1,medic1,OK
+Tue May 21 04:04:19 EEST 2019,READ,controller.PatientController,User reads data from patient with id=4,medic1,OK
+Tue May 21 04:04:19 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 04:04:19 EEST 2019,READ,controller.MedicController,User reads medic with id=3,,OK
+Tue May 21 04:06:09 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,medic1,OK
+Tue May 21 04:06:09 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 04:06:09 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 04:06:09 EEST 2019,READ,controller.MedicController,Medic reads his patient requests,medic1,OK
+Tue May 21 04:06:09 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 04:06:09 EEST 2019,READ,controller.PatientController,User reads data from patient with id=5,medic1,OK
+Tue May 21 04:06:09 EEST 2019,READ,controller.CaseController,Read case with id=1,medic1,OK
+Tue May 21 04:06:09 EEST 2019,READ,controller.CaseController,Read case with id=3,medic1,OK
+Tue May 21 04:06:09 EEST 2019,READ,controller.CaseController,Read case with id=4,medic1,OK
+Tue May 21 04:06:09 EEST 2019,READ,controller.CaseController,Read case with id=5,medic1,OK
+Tue May 21 04:06:13 EEST 2019,READ,controller.CaseController,Read case with id=1,medic1,OK
+Tue May 21 04:06:14 EEST 2019,READ,controller.PatientController,User reads data from patient with id=4,medic1,OK
+Tue May 21 04:06:14 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 04:06:14 EEST 2019,READ,controller.MedicController,User reads medic with id=3,,OK
+Tue May 21 04:06:48 EEST 2019,UPDATE,controller.CaseController,Medic sets case completed with id=1,medic1,OK
+Tue May 21 04:06:55 EEST 2019,UPDATE,controller.CaseController,Medic sets case completed with id=1,medic1,OK
+Tue May 21 04:06:56 EEST 2019,UPDATE,controller.CaseController,Medic sets case completed with id=1,medic1,OK
+Tue May 21 04:07:10 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,medic1,OK
+Tue May 21 04:07:10 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 04:07:10 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 04:07:10 EEST 2019,READ,controller.MedicController,Medic reads his patient requests,medic1,OK
+Tue May 21 04:07:10 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 04:07:10 EEST 2019,READ,controller.PatientController,User reads data from patient with id=5,medic1,OK
+Tue May 21 04:07:10 EEST 2019,READ,controller.CaseController,Read case with id=1,medic1,OK
+Tue May 21 04:07:10 EEST 2019,READ,controller.CaseController,Read case with id=3,medic1,OK
+Tue May 21 04:07:10 EEST 2019,READ,controller.CaseController,Read case with id=4,medic1,OK
+Tue May 21 04:07:10 EEST 2019,READ,controller.CaseController,Read case with id=5,medic1,OK
+Tue May 21 04:07:14 EEST 2019,READ,controller.CaseController,Read case with id=4,medic1,OK
+Tue May 21 04:07:16 EEST 2019,READ,controller.PatientController,User reads data from patient with id=4,medic1,OK
+Tue May 21 04:07:16 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 04:07:16 EEST 2019,READ,controller.MedicController,User reads medic with id=3,,OK
+Tue May 21 04:07:23 EEST 2019,READ,controller.CaseController,Read case with id=5,medic1,OK
+Tue May 21 04:07:23 EEST 2019,READ,controller.PatientController,User reads data from patient with id=18,medic1,OK
+Tue May 21 04:07:23 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 04:07:23 EEST 2019,READ,controller.MedicController,User reads medic with id=3,,OK
+Tue May 21 04:07:27 EEST 2019,READ,controller.CaseController,Read case with id=3,medic1,OK
+Tue May 21 04:07:27 EEST 2019,READ,controller.PatientController,User reads data from patient with id=16,medic1,OK
+Tue May 21 04:07:27 EEST 2019,READ,controller.MedicController,User reads medic with id=3,,OK
+Tue May 21 04:07:27 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 04:07:30 EEST 2019,UPDATE,controller.CaseController,Medic sets case completed with id=3,,UNAUTHORIZED
+Tue May 21 04:09:11 EEST 2019,CREATE,controller.AuthenticationController,User tries to register username=jms,jms,OK
+Tue May 21 04:09:45 EEST 2019,CREATE,controller.AuthenticationController,User tries to register username=bobby,bobby,OK
+Tue May 21 04:09:52 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,bobby,OK
+Tue May 21 04:09:52 EEST 2019,READ,controller.PatientController,Patient reads his data,bobby,OK
+Tue May 21 04:09:52 EEST 2019,READ,controller.PatientController,Patient reads his data,bobby,OK
+Tue May 21 04:09:52 EEST 2019,READ,controller.MedicController,User reads all medics,,OK
+Tue May 21 04:10:12 EEST 2019,READ,controller.MedicController,User reads all medics with specialization=neuro,,OK
+Tue May 21 04:10:17 EEST 2019,READ,controller.MedicController,User reads all medics with specialization=cardio,,OK
+Tue May 21 04:10:19 EEST 2019,READ,controller.MedicController,User reads all medics,,OK
+Tue May 21 04:10:22 EEST 2019,UPDATE,controller.PatientController,Patient sends request to medic with id=19,bobby,OK
+Tue May 21 04:10:33 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,jms,OK
+Tue May 21 04:10:33 EEST 2019,READ,controller.MedicController,Medic reads his data,jms,OK
+Tue May 21 04:10:33 EEST 2019,READ,controller.MedicController,Medic reads his data,jms,OK
+Tue May 21 04:10:33 EEST 2019,READ,controller.MedicController,Medic reads his patient requests,jms,OK
+Tue May 21 04:10:33 EEST 2019,READ,controller.MedicController,Medic reads his data,jms,OK
+Tue May 21 04:10:33 EEST 2019,READ,controller.PatientController,User reads data from patient with id=20,jms,OK
+Tue May 21 04:11:14 EEST 2019,UPDATE,controller.MedicController,Medic accepts request from patient with id=20,jms,OK
+Tue May 21 04:11:24 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,bobby,OK
+Tue May 21 04:11:24 EEST 2019,READ,controller.PatientController,Patient reads his data,bobby,OK
+Tue May 21 04:11:24 EEST 2019,READ,controller.PatientController,Patient reads his data,bobby,OK
+Tue May 21 04:11:24 EEST 2019,READ,controller.MedicController,User reads all medics,,OK
+Tue May 21 04:11:25 EEST 2019,READ,controller.MedicController,User reads medic with id=19,,OK
+Tue May 21 04:11:42 EEST 2019,CREATE,controller.CaseController,Patient creates case,bobby,OK
+Tue May 21 04:11:45 EEST 2019,READ,controller.CaseController,Read case with id=6,bobby,OK
+Tue May 21 04:11:46 EEST 2019,READ,controller.PatientController,User reads data from patient with id=20,bobby,OK
+Tue May 21 04:11:46 EEST 2019,READ,controller.MedicController,User reads medic with id=19,,OK
+Tue May 21 04:11:58 EEST 2019,UPDATE,controller.CaseController,Patient adds symptom to case with id=6,bobby,OK
+Tue May 21 04:12:13 EEST 2019,UPDATE,controller.CaseController,Patient adds symptom to case with id=6,bobby,OK
+Tue May 21 04:12:16 EEST 2019,UPDATE,controller.CaseController,Patient removes symptom from case with id=6,bobby,OK
+Tue May 21 04:12:37 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,jms,OK
+Tue May 21 04:12:37 EEST 2019,READ,controller.MedicController,Medic reads his data,jms,OK
+Tue May 21 04:12:37 EEST 2019,READ,controller.MedicController,Medic reads his data,jms,OK
+Tue May 21 04:12:37 EEST 2019,READ,controller.MedicController,Medic reads his patient requests,jms,OK
+Tue May 21 04:12:37 EEST 2019,READ,controller.MedicController,Medic reads his data,jms,OK
+Tue May 21 04:12:37 EEST 2019,READ,controller.CaseController,Read case with id=6,jms,OK
+Tue May 21 04:12:42 EEST 2019,READ,controller.CaseController,Read case with id=6,jms,OK
+Tue May 21 04:12:43 EEST 2019,READ,controller.PatientController,User reads data from patient with id=20,jms,OK
+Tue May 21 04:12:43 EEST 2019,READ,controller.MedicController,User reads medic with id=19,,OK
+Tue May 21 04:12:54 EEST 2019,UPDATE,controller.CaseController,Medic adds medic with id=1 to case with id=6,jms,OK
+Tue May 21 04:12:54 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 04:13:10 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,medic1,OK
+Tue May 21 04:13:10 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 04:13:10 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 04:13:10 EEST 2019,READ,controller.MedicController,Medic reads his patient requests,medic1,OK
+Tue May 21 04:13:10 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 04:13:10 EEST 2019,READ,controller.PatientController,User reads data from patient with id=5,medic1,OK
+Tue May 21 04:13:10 EEST 2019,READ,controller.CaseController,Read case with id=1,medic1,OK
+Tue May 21 04:13:10 EEST 2019,READ,controller.CaseController,Read case with id=3,medic1,OK
+Tue May 21 04:13:10 EEST 2019,READ,controller.CaseController,Read case with id=4,medic1,OK
+Tue May 21 04:13:10 EEST 2019,READ,controller.CaseController,Read case with id=5,medic1,OK
+Tue May 21 04:13:10 EEST 2019,READ,controller.CaseController,Read case with id=6,medic1,OK
+Tue May 21 04:13:13 EEST 2019,READ,controller.CaseController,Read case with id=6,medic1,OK
+Tue May 21 04:13:15 EEST 2019,READ,controller.PatientController,User reads data from patient with id=20,medic1,OK
+Tue May 21 04:13:15 EEST 2019,READ,controller.MedicController,User reads medic with id=19,,OK
+Tue May 21 04:13:15 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 04:13:34 EEST 2019,UPDATE,controller.CaseController,Medic adds medication to case with id=6,medic1,OK
+Tue May 21 04:13:39 EEST 2019,UPDATE,controller.CaseController,Medic adds medication to case with id=6,medic1,OK
+Tue May 21 04:13:42 EEST 2019,UPDATE,controller.CaseController,Medic removes medication from case with id=6,medic1,OK
+Tue May 21 04:13:52 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,bobby,OK
+Tue May 21 04:13:52 EEST 2019,READ,controller.PatientController,Patient reads his data,bobby,OK
+Tue May 21 04:13:52 EEST 2019,READ,controller.PatientController,Patient reads his data,bobby,OK
+Tue May 21 04:13:52 EEST 2019,READ,controller.MedicController,User reads all medics,,OK
+Tue May 21 04:13:53 EEST 2019,READ,controller.MedicController,User reads medic with id=19,,OK
+Tue May 21 04:13:53 EEST 2019,READ,controller.CaseController,Read case with id=6,bobby,OK
+Tue May 21 04:13:56 EEST 2019,READ,controller.CaseController,Read case with id=6,bobby,OK
+Tue May 21 04:13:57 EEST 2019,READ,controller.PatientController,User reads data from patient with id=20,bobby,OK
+Tue May 21 04:13:57 EEST 2019,READ,controller.MedicController,User reads medic with id=19,,OK
+Tue May 21 04:13:57 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 04:14:06 EEST 2019,UPDATE,controller.CaseController,Patient removes symptom from case with id=6,bobby,OK
+Tue May 21 04:14:21 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,medic1,OK
+Tue May 21 04:14:21 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 04:14:21 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 04:14:21 EEST 2019,READ,controller.MedicController,Medic reads his patient requests,medic1,OK
+Tue May 21 04:14:21 EEST 2019,READ,controller.MedicController,Medic reads his data,medic1,OK
+Tue May 21 04:14:21 EEST 2019,READ,controller.PatientController,User reads data from patient with id=5,medic1,OK
+Tue May 21 04:14:21 EEST 2019,READ,controller.CaseController,Read case with id=1,medic1,OK
+Tue May 21 04:14:21 EEST 2019,READ,controller.CaseController,Read case with id=3,medic1,OK
+Tue May 21 04:14:21 EEST 2019,READ,controller.CaseController,Read case with id=4,medic1,OK
+Tue May 21 04:14:21 EEST 2019,READ,controller.CaseController,Read case with id=5,medic1,OK
+Tue May 21 04:14:21 EEST 2019,READ,controller.CaseController,Read case with id=6,medic1,OK
+Tue May 21 04:14:25 EEST 2019,READ,controller.CaseController,Read case with id=6,medic1,OK
+Tue May 21 04:14:26 EEST 2019,READ,controller.PatientController,User reads data from patient with id=20,medic1,OK
+Tue May 21 04:14:26 EEST 2019,READ,controller.MedicController,User reads medic with id=19,,OK
+Tue May 21 04:14:26 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 04:14:29 EEST 2019,UPDATE,controller.CaseController,Medic sets case completed with id=6,,UNAUTHORIZED
+Tue May 21 04:14:44 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,jms,OK
+Tue May 21 04:14:44 EEST 2019,READ,controller.MedicController,Medic reads his data,jms,OK
+Tue May 21 04:14:44 EEST 2019,READ,controller.MedicController,Medic reads his data,jms,OK
+Tue May 21 04:14:44 EEST 2019,READ,controller.MedicController,Medic reads his patient requests,jms,OK
+Tue May 21 04:14:44 EEST 2019,READ,controller.MedicController,Medic reads his data,jms,OK
+Tue May 21 04:14:45 EEST 2019,READ,controller.CaseController,Read case with id=6,jms,OK
+Tue May 21 04:14:48 EEST 2019,READ,controller.CaseController,Read case with id=6,jms,OK
+Tue May 21 04:14:49 EEST 2019,READ,controller.PatientController,User reads data from patient with id=20,jms,OK
+Tue May 21 04:14:49 EEST 2019,READ,controller.MedicController,User reads medic with id=19,,OK
+Tue May 21 04:14:49 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK
+Tue May 21 04:14:52 EEST 2019,UPDATE,controller.CaseController,Medic sets case completed with id=6,jms,OK
+Tue May 21 04:15:04 EEST 2019,AUTHENTICATE,controller.AuthenticationController,User tries to login,bobby,OK
+Tue May 21 04:15:04 EEST 2019,READ,controller.PatientController,Patient reads his data,bobby,OK
+Tue May 21 04:15:04 EEST 2019,READ,controller.PatientController,Patient reads his data,bobby,OK
+Tue May 21 04:15:04 EEST 2019,READ,controller.MedicController,User reads all medics,,OK
+Tue May 21 04:15:04 EEST 2019,READ,controller.MedicController,User reads medic with id=19,,OK
+Tue May 21 04:15:04 EEST 2019,READ,controller.CaseController,Read case with id=6,bobby,OK
+Tue May 21 04:15:09 EEST 2019,READ,controller.CaseController,Read case with id=6,bobby,OK
+Tue May 21 04:15:10 EEST 2019,READ,controller.PatientController,User reads data from patient with id=20,bobby,OK
+Tue May 21 04:15:10 EEST 2019,READ,controller.MedicController,User reads medic with id=19,,OK
+Tue May 21 04:15:10 EEST 2019,READ,controller.MedicController,User reads medic with id=1,,OK

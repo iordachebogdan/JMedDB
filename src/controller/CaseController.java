@@ -183,8 +183,31 @@ public class CaseController {
             medic = (Medic) userDao.getUserById(id);
             c = caseDao.getCaseById(caseId);
             if (medic.getId() != c.getOwnerMedicId())
-                throw new IllegalArgumentException("Not authorized to remove medication");
+                throw new IllegalArgumentException("Not authorized to set completed");
             caseDao.setCompleted(caseId);
+        } catch (Exception e) {
+            loggingService.log(entry, null, LoggingService.Status.UNAUTHORIZED);
+            throw e;
+        }
+
+        loggingService.log(entry, medic.getUsername(), LoggingService.Status.OK);
+    }
+
+    public void addMedic(String token, int caseId, int medicId) throws NotFoundException, SQLException {
+        LoggingService.LogEntry entry = new LoggingService.LogEntry(
+                LoggingService.Operation.UPDATE,
+                this.getClass().getName(),
+                "Medic adds medic with id=" + medicId + " to case with id=" + caseId
+        );
+        int id = authenticationService.extractIdFromToken(token);
+        Medic medic;
+        Case c;
+        try {
+            medic = (Medic) userDao.getUserById(id);
+            c = caseDao.getCaseById(caseId);
+            if (medic.getId() != c.getOwnerMedicId() && !c.getOtherMedicsIds().contains(id))
+                throw new IllegalArgumentException("Not authorized to add medic");
+            caseDao.addMedic(caseId, medicId);
         } catch (Exception e) {
             loggingService.log(entry, null, LoggingService.Status.UNAUTHORIZED);
             throw e;
